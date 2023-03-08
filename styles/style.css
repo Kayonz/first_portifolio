@@ -1,0 +1,105 @@
+:root{
+    --cor-primaria: #F6F6F6;
+    --cor-secundaria: #000;
+    --cor-terciaria: #5E0066;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap:60px;
+    border-bottom: 6px solid var(--cor-terciaria);
+    width: 35%;
+    padding-bottom: 5px;
+}
+.cabecalho__menu__link{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+.apresentacao{
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One';
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.apresentacao__links__link:hover{
+    background-color: var(--cor-secundaria);
+    padding: 3%;
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    border: 4px solid var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: 24px;
+    color: var(--cor-primaria);
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    padding: 21.5px 0;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.apresentacao__conteudo__links{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Krona One';
+}
+.apresentacao__conteudo_icones{
+    padding-right: 5px;
+}
+.rodape{
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    padding: 23.64px;
+}
+.rodape__conteudo{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: var(--cor-primaria);
+}
